@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Play:wght@400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+   background-image: url(./wave-haikei.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#main-heading {
+    text-align: center;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style: normal;
+    font-size: 45px; 
+    margin-top: 20px;
+    color: #e9df1e; 
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 500px;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    font-family: "Baskervville SC", serif;
+    /* height: 45px; */
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #000103;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    font-family: "Play", sans-serif;
+}
+
+button {
+    background-color: #005eff;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #030379;
+}
+
+#todo-list {
+    margin-top: 20px;
+    text-align: left;
+}
+#todo-list {
+    list-style-type: none; 
+    padding: 0;
+    font-family: "Play", sans-serif;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(3, 3, 3);
+    margin-top: 5px;
+    border-radius: 4px;
+    background-color: #e2d7f3		
+}
+
+.delete-btn {
+    background-color: #d97b4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    background-color: #c9302c;
+}
